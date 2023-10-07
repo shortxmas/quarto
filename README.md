@@ -7,6 +7,8 @@
 * R snippets rendered to chart automatically
 * [tidyverse](https://www.tidyverse.org/) example
 * [knitr](https://yihui.org/knitr/) example
+* [dygraphs](https://dygraphs.com/)
+* LaTeX math output
 
 ## Objectives
 
@@ -25,6 +27,8 @@
 
 * Used R Studio on Windows 11 (not WSL) as I ran into problems with WSL and VS Code
 * installed tidyverse through the R Studio interface
+* Needed to install RTools for dygraphs
+* quarto examples: <https://quarto.org/docs/gallery/>
 
 ## Why are we doing this project?
 
