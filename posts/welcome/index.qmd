@@ -1,0 +1,34 @@
+---
+title: "Oppkey Demonstration of R Snippets"
+author: "Craig"
+date: "2023-10-06"
+categories: [workflow]
+---
+
+Simple example of using R snippets to show a chart.
+
+This ggplot example is built from the [quarto documentation](https://quarto.org/docs/computations/r.html).
+
+## Air Quality
+
+@fig-airquality further explores the impact of temperature on ozone level.
+
+```{r}
+#| label: fig-airquality
+#| fig-cap: "Temperature and ozone level."
+#| warning: false
+
+library(ggplot2)
+
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess")
+```
+
+------------------------------------------------------------------------
+
+The sample blog template also comes with a simple R system addition test.
+
+```{r}
+1 + 1
+```
