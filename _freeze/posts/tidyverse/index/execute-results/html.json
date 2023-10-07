@@ -1,7 +1,7 @@
 {
-  "hash": "75024eb3ef36574b3c5225670265d12a",
+  "hash": "5e880b02f22c4803f121f386b22437ba",
   "result": {
-    "markdown": "---\ntitle: \"tidyverse example\"\nauthor: \"Craig\"\ndate: \"2023-10-06\"\ncategories: [code, demo]\n---\n\n\nThis example uses `library(tidyverse)`.\n\nThe code is example is from the [quarto chapter of R for Data Science](https://r4ds.hadley.nz/quarto.html).\n\n\n\n\n\nWe have data about 53940 diamonds. Only 126 are larger than 2.5 carats. The distribution of the remainder is shown below:\n\n\n::: {.cell}\n\n```{.r .cell-code}\nsmaller |> \n  ggplot(aes(x = carat)) + \n  geom_freqpoly(binwidth = 0.01)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/plot-smaller-diamonds-1.png){width=672}\n:::\n:::\n\n\n------------------------------------------------------------------------\n",
+    "markdown": "---\ntitle: \"tidyverse example\"\nauthor: \"Craig\"\ndate: \"2023-10-06\"\ncategories: [code, demo]\n---\n\n\nThis example uses `library(tidyverse)`. See [What is the tidyverse? ](https://rviews.rstudio.com/2017/06/08/what-is-the-tidyverse/) by Joseph Rickert\nfor an overview of tidyverse.\n\nThe code is example is from the [quarto chapter of R for Data Science](https://r4ds.hadley.nz/quarto.html).\n\n\n\n\n\nWe have data about 53940 diamonds. Only 126 are larger than 2.5 carats. The distribution of the remainder is shown below:\n\n\n::: {.cell}\n\n```{.r .cell-code}\nsmaller |> \n  ggplot(aes(x = carat)) + \n  geom_freqpoly(binwidth = 0.01)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/plot-smaller-diamonds-1.png){width=672}\n:::\n:::\n\n\n------------------------------------------------------------------------\n",
     "supporting": [
       "index_files"
     ],

@@ -1,12 +1,12 @@
 ---
-title: "table example"
+title: "knitr kable for table formatting"
 author: "Craig"
 date: "2023-10-06"
 categories: [code, demo]
 image: "thumb.png"
 ---
 
-This example uses knitr kable for additional table formatting
+This example uses knitr kable for additional table formatting.
 
 ```{r}
 df <- data.frame(player = c('AJ', 'Bob', 'Chad', 'Dan', 'Eric', 'Frank'),

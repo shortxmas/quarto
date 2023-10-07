@@ -1,5 +1,5 @@
 ---
-title: "Oppkey Demonstration of R Snippets"
+title: "R Snippets with Rendered Chart Example"
 author: "Craig"
 date: "2023-10-06"
 categories: [workflow]
