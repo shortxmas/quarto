@@ -1,0 +1,16 @@
+{
+  "hash": "1379a315481622da3db934446cdb05e3",
+  "result": {
+    "markdown": "---\ntitle: \"Plot, knitr kable, LaTeX Math Example with TOC\"\nauthor: \"Craig\"\ndate: \"2023-10-06\"\ntoc: true\nformat:\n  html:\n    html-math-method: katex\n    code-tools: true\n    self-contained: true\nexecute:\n  warning: false\n---\n\n\n## Introduction\n\nThis a Quarto document. To learn more about Quarto see <https://quarto.org>.\n\nClick the **Code** button in the header to see the full source code of this document.\n\nHere we call the R `summary()` function---the function's output is included immediately below:\n\n\n::: {.cell}\n\n```{.r .cell-code}\nsummary(cars)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n```\n:::\n:::\n\n\n## Plot Output\n\nYou can also embed plots, for example:\n\n\n::: {.cell}\n\n```{.r .cell-code  code-fold=\"true\"}\nlibrary(ggplot2)\ndat <- data.frame(cond = rep(c(\"A\", \"B\"), each=10),\n                  xvar = 1:20 + rnorm(20,sd=3),\n                  yvar = 1:20 + rnorm(20,sd=3))\n\nggplot(dat, aes(x=xvar, y=yvar)) +\n    geom_point(shape=1) + \n    geom_smooth() \n```\n\n::: {.cell-output-display}\n![Pressure](index_files/figure-html/fig-pressure-1.png){#fig-pressure width=672}\n:::\n:::\n\n\nNote that the `code-fold: true` parameter was added to the code chunk to hide the code by default (click \"Code\" above the plot to see the code).\n\nThe use of the `label` and `fig-cap` options make this a cross-referenceable figure (see @fig-pressure).\n\n## Tables\n\nUse the `knitr::kable()` function to print tables as HTML:\n\n\n::: {.cell}\n\n```{.r .cell-code}\nknitr::kable(head(ggplot2::diamonds))\n```\n\n::: {.cell-output-display}\n| carat|cut       |color |clarity | depth| table| price|    x|    y|    z|\n|-----:|:---------|:-----|:-------|-----:|-----:|-----:|----:|----:|----:|\n|  0.23|Ideal     |E     |SI2     |  61.5|    55|   326| 3.95| 3.98| 2.43|\n|  0.21|Premium   |E     |SI1     |  59.8|    61|   326| 3.89| 3.84| 2.31|\n|  0.23|Good      |E     |VS1     |  56.9|    65|   327| 4.05| 4.07| 2.31|\n|  0.29|Premium   |I     |VS2     |  62.4|    58|   334| 4.20| 4.23| 2.63|\n|  0.31|Good      |J     |SI2     |  63.3|    58|   335| 4.34| 4.35| 2.75|\n|  0.24|Very Good |J     |VVS2    |  62.8|    57|   336| 3.94| 3.96| 2.48|\n:::\n:::\n\n\n## LaTeX Math\n\nYou can also include LaTeX math:\n\n$$\nP\\left(A=2\\middle|\\frac{A^2}{B}>4\\right)\n$$\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

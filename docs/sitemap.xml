@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://codetricity.github.io/quarto-demo/index.html</loc>
-    <lastmod>2023-10-07T22:11:23.367Z</lastmod>
+    <lastmod>2023-10-07T22:31:41.041Z</lastmod>
   </url>
   <url>
     <loc>https://codetricity.github.io/quarto-demo/posts/table/index.html</loc>
@@ -31,5 +31,9 @@
   <url>
     <loc>https://codetricity.github.io/quarto-demo/posts/tidyverse/index.html</loc>
     <lastmod>2023-10-07T22:11:36.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://codetricity.github.io/quarto-demo/posts/plot/index.html</loc>
+    <lastmod>2023-10-07T22:31:40.341Z</lastmod>
   </url>
 </urlset>
