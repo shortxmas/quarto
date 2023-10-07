@@ -3,20 +3,23 @@ project:
   output-dir: docs
 
 website:
-  title: "Quarto Oppkey"
+  title: "R Working Group"
   favicon: r_icon.png
   twitter-card: true
   site-url: https://codetricity.github.io/quarto-demo/
   navbar:
+    logo: r_logo_rect.png
     right:
       - about.qmd
       - icon: github
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
+    background: light
+    foreground: gray
 format:
   html:
-    theme: minty
+    theme: slate
     css: styles.css
 
 editor: visual

@@ -1,5 +1,5 @@
 ---
-title: "Quarto Demonstration Blog by Oppkey"
+title: "R Working Group Blog Demonstration"
 listing:
   contents: posts
   sort: "date desc"
