@@ -6,7 +6,7 @@ categories: [code, demo]
 image: "thumb.png"
 ---
 
-This example uses `library(tidyverse)` with knitr for additional table formatting
+This example uses knitr kable for additional table formatting
 
 ```{r}
 df <- data.frame(player = c('AJ', 'Bob', 'Chad', 'Dan', 'Eric', 'Frank'),

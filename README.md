@@ -2,6 +2,12 @@
 
 <https://codetricity.github.io/quarto-demo/>
 
+## Features
+
+* R snippets rendered to chart automatically
+* [tidyverse](https://www.tidyverse.org/) example
+* [knitr](https://yihui.org/knitr/) example
+
 ## How to Edit
 
 * add new posts in the `posts` folder

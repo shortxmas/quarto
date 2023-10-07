@@ -32,7 +32,7 @@
     "href": "posts/table/index.html",
     "title": "table example",
     "section": "",
-    "text": "This example uses library(tidyverse) with knitr for additional table formatting\n\ndf &lt;- data.frame(player = c('AJ', 'Bob', 'Chad', 'Dan', 'Eric', 'Frank'),\n                 position = c('A', 'B', 'B', 'B', 'B', 'A'),\n                 points = c(1, 2, 2, 1, 0, 0))\n\n#view data frame\nknitr::kable(df[1:6, ], )\n\n\n\n\nplayer\nposition\npoints\n\n\n\n\nAJ\nA\n1\n\n\nBob\nB\n2\n\n\nChad\nB\n2\n\n\nDan\nB\n1\n\n\nEric\nB\n0\n\n\nFrank\nA\n0"
+    "text": "This example uses knitr kable for additional table formatting\n\ndf &lt;- data.frame(player = c('AJ', 'Bob', 'Chad', 'Dan', 'Eric', 'Frank'),\n                 position = c('A', 'B', 'B', 'B', 'B', 'A'),\n                 points = c(1, 2, 2, 1, 0, 0))\n\n#view data frame\nknitr::kable(df[1:6, ], )\n\n\n\n\nplayer\nposition\npoints\n\n\n\n\nAJ\nA\n1\n\n\nBob\nB\n2\n\n\nChad\nB\n2\n\n\nDan\nB\n1\n\n\nEric\nB\n0\n\n\nFrank\nA\n0"
   },
   {
     "objectID": "about.html",
