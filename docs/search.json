@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "R Working Group Blog Demonstration",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nknitr kable for table formatting\n\n\n\n\n\n\n\ncode\n\n\ndemo\n\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\n  \n\n\n\n\ntidyverse example\n\n\n\n\n\n\n\ncode\n\n\ndemo\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\n  \n\n\n\n\nR Snippets with Rendered Chart Example\n\n\n\n\n\n\n\nworkflow\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\ntidyverse example\n\n\n\n\n\n\n\ncode\n\n\ndemo\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\n  \n\n\n\n\nR Snippets with Rendered Chart Example\n\n\n\n\n\n\n\nworkflow\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\n  \n\n\n\n\nknitr kable for table formatting\n\n\n\n\n\n\n\ncode\n\n\ndemo\n\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/tidyverse/index.html",
@@ -39,6 +39,13 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "The goal of the R Consortium Infrastructure Steering Committee (ISC) is to support projects that broadly help the R community. This might be software development, developing new teaching materials, documenting best practices, standardizing APIs or doing research. Currently, the ISC chiefly provides financial support for projects proposed by individuals or teams who have the skills to carry out the work.\nYou can apply to the ISC Grant Program here.\nIn this blog, we are interested in showcasing work and ideas that is help defining the direction of R. That means you! 🫵 This blog is a growing collection of voices from the R community, showing what’s possible with R and where it is headed. You are not required to be a grant recipient.\nIf you would like to particpate, please contact the R Consortium! info@r-consortium.org"
+  },
+  {
+    "objectID": "about.html#r-consortium-technical-blob-prototype",
+    "href": "about.html#r-consortium-technical-blob-prototype",
+    "title": "About",
+    "section": "",
+    "text": "The goal of the R Consortium Infrastructure Steering Committee (ISC) is to support projects that broadly help the R community. This might be software development, developing new teaching materials, documenting best practices, standardizing APIs or doing research. Currently, the ISC chiefly provides financial support for projects proposed by individuals or teams who have the skills to carry out the work.\nYou can apply to the ISC Grant Program here.\nIn this blog, we are interested in showcasing work and ideas that is help defining the direction of R. That means you! 🫵 This blog is a growing collection of voices from the R community, showing what’s possible with R and where it is headed. You are not required to be a grant recipient.\nIf you would like to particpate, please contact the R Consortium! info@r-consortium.org"
   }
 ]
