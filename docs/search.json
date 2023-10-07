@@ -16,14 +16,14 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Oppkey Demonstration of R Snippets",
+    "title": "R Snippets with Rendered Chart Example",
     "section": "",
     "text": "Simple example of using R snippets to show a chart.\nThis ggplot example is built from the quarto documentation."
   },
   {
     "objectID": "posts/welcome/index.html#air-quality",
     "href": "posts/welcome/index.html#air-quality",
-    "title": "Oppkey Demonstration of R Snippets",
+    "title": "R Snippets with Rendered Chart Example",
     "section": "Air Quality",
     "text": "Air Quality\nFigure 1 further explores the impact of temperature on ozone level.\n\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n\n\n\n\nFigure 1: Temperature and ozone level.\n\n\n\n\n\nThe sample blog template also comes with a simple R system addition test.\n\n1 + 1\n\n[1] 2"
   },
