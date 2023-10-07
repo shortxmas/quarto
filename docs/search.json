@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Quarto Demonstration Blog by Oppkey",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\ntidyverse example\n\n\n\n\n\n\n\ncode\n\n\ndemo\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\n  \n\n\n\n\nOppkey Demonstration of R Snippets\n\n\n\n\n\n\n\nworkflow\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\ntable example\n\n\n\n\n\n\n\ncode\n\n\ndemo\n\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\n  \n\n\n\n\ntidyverse example\n\n\n\n\n\n\n\ncode\n\n\ndemo\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\n  \n\n\n\n\nOppkey Demonstration of R Snippets\n\n\n\n\n\n\n\nworkflow\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/tidyverse/index.html",
@@ -26,5 +26,19 @@
     "title": "Oppkey Demonstration of R Snippets",
     "section": "Air Quality",
     "text": "Air Quality\nFigure 1 further explores the impact of temperature on ozone level.\n\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n\n\n\n\nFigure 1: Temperature and ozone level.\n\n\n\n\n\nThe sample blog template also comes with a simple R system addition test.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/table/index.html",
+    "href": "posts/table/index.html",
+    "title": "table example",
+    "section": "",
+    "text": "This example uses library(tidyverse) with knitr for additional table formatting\n\ndf &lt;- data.frame(player = c('AJ', 'Bob', 'Chad', 'Dan', 'Eric', 'Frank'),\n                 position = c('A', 'B', 'B', 'B', 'B', 'A'),\n                 points = c(1, 2, 2, 1, 0, 0))\n\n#view data frame\nknitr::kable(df[1:6, ], )\n\n\n\n\nplayer\nposition\npoints\n\n\n\n\nAJ\nA\n1\n\n\nBob\nB\n2\n\n\nChad\nB\n2\n\n\nDan\nB\n1\n\n\nEric\nB\n0\n\n\nFrank\nA\n0"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
   }
 ]

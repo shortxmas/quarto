@@ -6,7 +6,7 @@ website:
   title: "Quarto Oppkey"
   favicon: r_icon.png
   twitter-card: true
-  site-url: https://example.com
+  site-url: https://codetricity.github.io/quarto-demo/
   navbar:
     right:
       - about.qmd

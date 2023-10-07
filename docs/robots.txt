@@ -1,1 +1,1 @@
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://codetricity.github.io/quarto-demo/sitemap.xml
