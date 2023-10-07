@@ -1,5 +1,5 @@
 ---
-title: "Plot, knitr kable, LaTeX Math Example with TOC"
+title: "interactive dygraphs, Plot, knitr kable, LaTeX  Example with TOC"
 author: "Craig"
 date: "2023-10-06"
 toc: true
@@ -46,6 +46,19 @@ ggplot(dat, aes(x=xvar, y=yvar)) +
 Note that the `code-fold: true` parameter was added to the code chunk to hide the code by default (click "Code" above the plot to see the code).
 
 The use of the `label` and `fig-cap` options make this a cross-referenceable figure (see @fig-pressure).
+
+## Interactivity
+
+You can also add interactive plots. For example:
+
+```{r}
+#| label: fig-temperatures
+#| fig-cap: "New Haven Temperatures"
+
+library(dygraphs)
+dygraph(nhtemp) %>% 
+  dyRangeSelector(dateWindow = c("1920-01-01", "1960-01-01"))
+```
 
 ## Tables
 
