@@ -1,7 +1,7 @@
 ---
 title: "interactive dygraphs, Plot, knitr kable, LaTeX  Example with TOC"
 author: "Craig"
-date: "2023-10-06"
+date: "2023-10-07"
 toc: true
 format:
   html:
