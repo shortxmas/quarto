@@ -9,6 +9,7 @@
 -   [knitr](https://yihui.org/knitr/) example
 -   [dygraphs](https://dygraphs.com/)
 -   LaTeX math output, using tinytex
+-   ggplot
 
 ## Objectives
 
