@@ -2,7 +2,7 @@
 title: "A Quarto Page Layout Example"
 author: "Craig"
 subtitle: "Inspired by Tufte Handout, Using Quarto"
-date: "`2023-10-08`"
+date: "2023-10-08"
 format:
     # pdf: default
     html: 
