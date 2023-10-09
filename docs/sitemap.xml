@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://codetricity.github.io/quarto-demo/posts/welcome/index.html</loc>
-    <lastmod>2023-10-08T03:03:09.845Z</lastmod>
+    <loc>https://codetricity.github.io/quarto-demo/about.html</loc>
+    <lastmod>2023-10-09T19:32:06.603Z</lastmod>
   </url>
   <url>
     <loc>https://codetricity.github.io/quarto-demo/posts/table/index.html</loc>
-    <lastmod>2023-10-08T03:03:08.100Z</lastmod>
+    <lastmod>2023-10-09T19:32:04.203Z</lastmod>
   </url>
   <url>
-    <loc>https://codetricity.github.io/quarto-demo/index.html</loc>
-    <lastmod>2023-10-08T15:15:09.814Z</lastmod>
-  </url>
-  <url>
-    <loc>https://codetricity.github.io/quarto-demo/about.html</loc>
-    <lastmod>2023-10-08T03:03:03.919Z</lastmod>
-  </url>
-  <url>
-    <loc>https://codetricity.github.io/quarto-demo/posts/plot/index.html</loc>
-    <lastmod>2023-10-08T15:13:36.637Z</lastmod>
+    <loc>https://codetricity.github.io/quarto-demo/posts/margin-figures/index.html</loc>
+    <lastmod>2023-10-09T19:32:30.647Z</lastmod>
   </url>
   <url>
     <loc>https://codetricity.github.io/quarto-demo/posts/tidyverse/index.html</loc>
-    <lastmod>2023-10-08T03:03:08.953Z</lastmod>
+    <lastmod>2023-10-09T19:31:54.634Z</lastmod>
+  </url>
+  <url>
+    <loc>https://codetricity.github.io/quarto-demo/posts/plot/index.html</loc>
+    <lastmod>2023-10-09T19:31:53.474Z</lastmod>
+  </url>
+  <url>
+    <loc>https://codetricity.github.io/quarto-demo/posts/welcome/index.html</loc>
+    <lastmod>2023-10-09T19:31:55.886Z</lastmod>
   </url>
   <url>
     <loc>https://codetricity.github.io/quarto-demo/posts/advanced/index.html</loc>
-    <lastmod>2023-10-08T15:13:40.086Z</lastmod>
+    <lastmod>2023-10-09T19:32:01.714Z</lastmod>
+  </url>
+  <url>
+    <loc>https://codetricity.github.io/quarto-demo/index.html</loc>
+    <lastmod>2023-10-09T19:32:27.151Z</lastmod>
   </url>
 </urlset>

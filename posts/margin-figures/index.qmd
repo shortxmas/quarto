@@ -1,0 +1,44 @@
+---
+title: "An Example of Margin Figures"
+author: "Erik"
+subtitle: "Using the Quarto chunk option `column: margin`"
+date: "2023-10-08"
+---
+
+# Introduction
+
+Images and graphics play an integral role in Tufte’s work. To place figures in the margin you can use the **Quarto** chunk option `column: margin`. For example:
+
+```{r}
+#| label: fig-margin
+#| fig-cap: "MPG vs horsepower, colored by transmission."
+#| column: margin
+#| message: false
+library(ggplot2)
+mtcars2 <- mtcars
+mtcars2$am <- factor(
+  mtcars$am, labels = c('automatic', 'manual')
+)
+ggplot(mtcars2, aes(hp, mpg, color = am)) +
+  geom_point() + geom_smooth() +
+  theme(legend.position = 'bottom')
+```
+
+
+Note the use of the `fig-cap` chunk option to provide a figure caption. You can adjust the proportions of figures using the `fig-width` and `fig-height` chunk options. These are specified in inches, and will be automatically scaled down to fit within the handout margin.
+
+```{r}
+#| label: fig-margin-second
+#| fig-cap: "Icecream vs chocolate, colored by flavor."
+#| fig-width: 20
+#| column: margin
+#| message: false
+library(ggplot2)
+mtcars2 <- mtcars
+mtcars2$am <- factor(
+  mtcars$am, labels = c('automatic', 'manual')
+)
+ggplot(mtcars2, aes(hp, mpg, color = am)) +
+  geom_point() + geom_smooth() +
+  theme(legend.position = 'bottom')
+```

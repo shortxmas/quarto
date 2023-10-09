@@ -60,3 +60,11 @@ Staff: Jesse and Ilenia. And Oppkey writer team, currently Mahzeb in Pakistan an
 ### Future Improvements
 
 If R Consortium pays for the project, after 6 months, we should add login functionality. Similar to the functionality that we have partially built for the [THETA Plug-ins site](https://thetaplugin.oppget.com/dashboard). (Note: /dashboard only works if you have an account and have plug-ins attributed to the account.) So that outside blog contributors can post drafts for Oppkey staff to review, schedule and publish.
+
+### Setup for Contributors
+
+Install R using `sudo apt-get install r-base` and `sudo apt-get install r-base-dev`
+
+Install R packages on Linux; type `R` in console and then `install.packages('rmarkdown')`
+
+GGPLOT2 installation: `install.packages("ggplot2")`
