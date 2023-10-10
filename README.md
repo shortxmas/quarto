@@ -68,3 +68,5 @@ Install R using `sudo apt-get install r-base` and `sudo apt-get install r-base-d
 Install R packages on Linux; type `R` in console and then `install.packages('rmarkdown')`
 
 GGPLOT2 installation: `install.packages("ggplot2")`
+
+dygraphs installation : `install.packages("dygraphs")`
