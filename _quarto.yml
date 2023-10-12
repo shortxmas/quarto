@@ -6,7 +6,7 @@ website:
   title: "R Working Group"
   favicon: r_icon.png
   twitter-card: true
-  site-url: https://codetricity.github.io/quarto-demo/
+  site-url: https://github.com/Oppkey/quarto
   navbar:
     logo: r_logo_rect.png
     right:
