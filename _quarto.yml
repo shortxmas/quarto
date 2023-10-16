@@ -25,7 +25,7 @@ format:
   html:
     theme: slate
     fontsize: 1.5em
-    css: styles.css
+    css: quarto/styles.css
 
 editor: visual
 
