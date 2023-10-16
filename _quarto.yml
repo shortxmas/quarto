@@ -24,6 +24,7 @@ website:
 format:
   html:
     theme: slate
+    fontsize: 1.5em
     css: styles.css
 
 editor: visual

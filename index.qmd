@@ -1,5 +1,5 @@
 ---
-title: "R Working Group Blog Demonstration"
+title: "R Consortium Working Groups Blog"
 listing:
   contents: posts
   sort: "date desc"
