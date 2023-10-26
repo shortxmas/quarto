@@ -19,7 +19,7 @@ about:
 
 ---
 
-## R Consortium Technical Blob (prototype)
+## R Consortium Technical Blog (prototype)
 
 The goal of the R Consortium Infrastructure Steering Committee (ISC) is to support projects that broadly help the R community. This might be software development, developing new teaching materials, documenting best practices, standardizing APIs or doing research. Currently, the ISC chiefly provides financial support for projects proposed by individuals or teams who have the skills to carry out the work. 
 
