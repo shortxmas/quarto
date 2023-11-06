@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/Oppkey/quarto/posts/welcome/index.html</loc>
-    <lastmod>2023-10-16T20:14:43.907Z</lastmod>
+    <lastmod>2023-11-06T19:36:48.462Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Oppkey/quarto/posts/table/index.html</loc>
-    <lastmod>2023-10-16T20:14:42.623Z</lastmod>
+    <lastmod>2023-11-06T19:36:47.491Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Oppkey/quarto/posts/margin-figures/index.html</loc>
-    <lastmod>2023-10-16T20:14:41.101Z</lastmod>
+    <lastmod>2023-11-06T19:36:46.347Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Oppkey/quarto/index.html</loc>
-    <lastmod>2023-10-26T18:13:31.621Z</lastmod>
+    <lastmod>2023-11-06T19:36:44.208Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Oppkey/quarto/about.html</loc>
@@ -22,14 +22,18 @@
   </url>
   <url>
     <loc>https://github.com/Oppkey/quarto/posts/advanced/index.html</loc>
-    <lastmod>2023-10-16T20:14:40.117Z</lastmod>
+    <lastmod>2023-11-06T19:36:45.537Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Oppkey/quarto/posts/plot/index.html</loc>
-    <lastmod>2023-10-16T20:14:41.993Z</lastmod>
+    <lastmod>2023-11-06T19:36:47.032Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Oppkey/quarto/posts/tidyverse/index.html</loc>
-    <lastmod>2023-10-16T20:14:43.258Z</lastmod>
+    <lastmod>2023-11-06T19:36:47.968Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Oppkey/quarto/posts/knit-kable/index.html</loc>
+    <lastmod>2023-11-06T19:36:49.709Z</lastmod>
   </url>
 </urlset>
