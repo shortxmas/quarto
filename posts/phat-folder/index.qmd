@@ -3,6 +3,7 @@ title: "knitr kable for table formatting"
 author: "Phat"
 date: "2023-11-06"
 categories: [testing]
+image: "thumb.png"
 ---
 
 This example uses knitr kable for additional table formatting.
@@ -10,7 +11,7 @@ This example uses knitr kable for additional table formatting.
 ```{r}
 df <- data.frame(player = c('AJ', 'Bob', 'Chad', 'Dan', 'Eric', 'Frank'),
                  position = c('A', 'B', 'B', 'B', 'B', 'A'),
-                 points = c(2, 2, 2, 1, 0, 0))
+                 points = c(5, 2, 2, 1, 0, 0))
 
 #view data frame
 knitr::kable(df[1:6, ], )

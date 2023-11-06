@@ -39,7 +39,11 @@
     "href": "index.html",
     "title": "R Consortium Working Groups Blog",
     "section": "",
+<<<<<<< HEAD
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nknitr kable for table formatting\n\n\n\n\n\n\n\ntesting\n\n\n\n\n\n\n\n\n\n\n\nNov 6, 2023\n\n\nPhat\n\n\n\n\n\n\n  \n\n\n\n\nA Quarto Page Layout Example\n\n\nInspired by Tufte Handout, Using Quarto\n\n\n\n\n\n\n\n\n\nOct 8, 2023\n\n\nCraig\n\n\n\n\n\n\n  \n\n\n\n\nAn Example of Margin Figures\n\n\nUsing the Quarto chunk option column: margin\n\n\n\n\n\n\n\n\n\nOct 8, 2023\n\n\nErik\n\n\n\n\n\n\n  \n\n\n\n\ninteractive dygraphs, Plot, knitr kable, LaTeX Example with TOC\n\n\n\n\n\n\n\n\n\n\n\n\nOct 7, 2023\n\n\nCraig\n\n\n\n\n\n\n  \n\n\n\n\nknitr kable for table formatting\n\n\n\n\n\n\n\ncode\n\n\ndemo\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nLeighton\n\n\n\n\n\n\n  \n\n\n\n\nknitr kable for table formatting\n\n\n\n\n\n\n\ncode\n\n\ndemo\n\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\n  \n\n\n\n\ntidyverse example\n\n\n\n\n\n\n\ncode\n\n\ndemo\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\n  \n\n\n\n\nR Snippets with Rendered Chart Example\n\n\n\n\n\n\n\nworkflow\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\nNo matching items"
+=======
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nknitr kable for table formatting\n\n\n\n\n\n\n\ntesting\n\n\n\n\n\n\n\n\n\n\n\nNov 6, 2023\n\n\nPhat\n\n\n\n\n\n\n  \n\n\n\n\nA Quarto Page Layout Example\n\n\nInspired by Tufte Handout, Using Quarto\n\n\n\n\n\n\n\n\n\nOct 8, 2023\n\n\nCraig\n\n\n\n\n\n\n  \n\n\n\n\nAn Example of Margin Figures\n\n\nUsing the Quarto chunk option column: margin\n\n\n\n\n\n\n\n\n\nOct 8, 2023\n\n\nErik\n\n\n\n\n\n\n  \n\n\n\n\ninteractive dygraphs, Plot, knitr kable, LaTeX Example with TOC\n\n\n\n\n\n\n\n\n\n\n\n\nOct 7, 2023\n\n\nCraig\n\n\n\n\n\n\n  \n\n\n\n\ntidyverse example\n\n\n\n\n\n\n\ncode\n\n\ndemo\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\n  \n\n\n\n\nR Snippets with Rendered Chart Example\n\n\n\n\n\n\n\nworkflow\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\n  \n\n\n\n\nknitr kable for table formatting\n\n\n\n\n\n\n\ncode\n\n\ndemo\n\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nCraig\n\n\n\n\n\n\nNo matching items"
+>>>>>>> origin/phat-ca
   },
   {
     "objectID": "about.html",
@@ -159,5 +163,12 @@
     "title": "tidyverse example",
     "section": "",
     "text": "This example uses library(tidyverse). See What is the tidyverse? by Joseph Rickert for an overview of tidyverse.\nCode example is from the quarto chapter of R for Data Science.\nWe have data about 53940 diamonds. Only 126 are larger than 2.5 carats. The distribution of the remainder is shown below:\n\nsmaller |&gt; \n  ggplot(aes(x = carat)) + \n  geom_freqpoly(binwidth = 0.01)"
+  },
+  {
+    "objectID": "posts/phat-folder/index.html",
+    "href": "posts/phat-folder/index.html",
+    "title": "knitr kable for table formatting",
+    "section": "",
+    "text": "This example uses knitr kable for additional table formatting.\n\ndf &lt;- data.frame(player = c('AJ', 'Bob', 'Chad', 'Dan', 'Eric', 'Frank'),\n                 position = c('A', 'B', 'B', 'B', 'B', 'A'),\n                 points = c(5, 2, 2, 1, 0, 0))\n\n#view data frame\nknitr::kable(df[1:6, ], )\n\n\n\n\nplayer\nposition\npoints\n\n\n\n\nAJ\nA\n5\n\n\nBob\nB\n2\n\n\nChad\nB\n2\n\n\nDan\nB\n1\n\n\nEric\nB\n0\n\n\nFrank\nA\n0"
   }
 ]
