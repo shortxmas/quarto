@@ -3,6 +3,7 @@ title: "knitr kable for table formatting"
 author: "Phat"
 date: "2023-11-06"
 categories: [testing]
+image: "thumb.png"
 ---
 
 This example uses knitr kable for additional table formatting.
