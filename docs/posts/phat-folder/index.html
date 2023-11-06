@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Craig">
-<meta name="dcterms.date" content="2023-10-06">
+<meta name="author" content="Phat">
+<meta name="dcterms.date" content="2023-11-06">
 
-<title>R Working Group - R Snippets with Rendered Chart Example</title>
+<title>R Working Group - knitr kable for table formatting</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -99,12 +99,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../../quarto/styles.css">
-<meta name="twitter:title" content="R Working Group - R Snippets with Rendered Chart Example">
+<meta name="twitter:title" content="R Working Group - knitr kable for table formatting">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://github.com/Oppkey/quarto/posts/welcome/index_files/figure-html/fig-airquality-1.png">
-<meta name="twitter:image-height" content="960">
-<meta name="twitter:image-width" content="1344">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -162,9 +159,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">R Snippets with Rendered Chart Example</h1>
+      <h1 class="title">knitr kable for table formatting</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">workflow</div>
+                <div class="quarto-category">testing</div>
               </div>
                   </div>
   </div>
@@ -175,14 +172,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Craig </p>
+               <p>Phat </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 6, 2023</p>
+        <p class="date">November 6, 2023</p>
       </div>
     </div>
     
@@ -200,37 +197,60 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>Simple example of using R snippets to show a chart.</p>
-<p>This ggplot example is built from the <a href="https://quarto.org/docs/computations/r.html">quarto documentation</a>.</p>
-<section id="air-quality" class="level2">
-<h2 class="anchored" data-anchor-id="air-quality">Air Quality</h2>
-<p><a href="#fig-airquality">Figure&nbsp;1</a> further explores the impact of temperature on ozone level.</p>
+<p>This example uses knitr kable for additional table formatting.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(airquality, <span class="fu">aes</span>(Temp, Ozone)) <span class="sc">+</span> </span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span> </span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"loess"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">player =</span> <span class="fu">c</span>(<span class="st">'AJ'</span>, <span class="st">'Bob'</span>, <span class="st">'Chad'</span>, <span class="st">'Dan'</span>, <span class="st">'Eric'</span>, <span class="st">'Frank'</span>),</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>                 <span class="at">position =</span> <span class="fu">c</span>(<span class="st">'A'</span>, <span class="st">'B'</span>, <span class="st">'B'</span>, <span class="st">'B'</span>, <span class="st">'B'</span>, <span class="st">'A'</span>),</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>                 <span class="at">points =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">0</span>))</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">#view data frame</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(df[<span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, ], )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div id="fig-airquality" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="index_files/figure-html/fig-airquality-1.png" class="img-fluid figure-img" width="672"></p>
-<figcaption class="figure-caption">Figure&nbsp;1: Temperature and ozone level.</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<hr>
-<p>The sample blog template also comes with a simple R system addition test.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<table class="table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">player</th>
+<th style="text-align: left;">position</th>
+<th style="text-align: right;">points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">AJ</td>
+<td style="text-align: left;">A</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bob</td>
+<td style="text-align: left;">B</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Chad</td>
+<td style="text-align: left;">B</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Dan</td>
+<td style="text-align: left;">B</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Eric</td>
+<td style="text-align: left;">B</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Frank</td>
+<td style="text-align: left;">A</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
