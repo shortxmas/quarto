@@ -1,0 +1,18 @@
+---
+title: "knitr kable for table formatting"
+author: "Leighton"
+date: "2023-10-06"
+categories: [code, demo]
+image: "thumb.png"
+---
+
+This example uses knitr kable for additional table formatting.
+
+```{r}
+df <- data.frame(player = c('AJ', 'Bob', 'Chad', 'Dan', 'Eric', 'Frank'),
+                 position = c('A', 'B', 'B', 'B', 'B', 'A'),
+                 points = c(1, 2, 2, 1, 0, 0))
+
+#view data frame
+knitr::kable(df[1:6, ], )
+```
