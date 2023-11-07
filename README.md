@@ -11,4 +11,5 @@ https://main--vermillion-salmiakki-8cfe18.netlify.app/docs/
 
 - Netlify needs quarto CLI in order to run quarto commands
 - After figuring out how to get quarto CLI on netlify, run quarto render command upon build
+- Got deployment without docs working, merge conflicts may still arise in _freeze and now trying to get build working with just posts folder
 

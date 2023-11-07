@@ -10,4 +10,6 @@ listing:
   sort-ui: true
   filter-ui: true
 page-layout: full
+execute:
+  freeze: true 
 ---
